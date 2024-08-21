@@ -1,0 +1,27 @@
+th, td{
+   border: 2px solid #000000;
+   border-collapse: collapse;
+}
+
+table{
+  width: 70%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.473);
+}
+
+th, td{
+  padding: 4px;
+  color:#000000;
+}
+
+th{
+  text-align: center;
+}
+
+.hrs{
+  text-align: center;
+}

@@ -1,0 +1,179 @@
+
+.container {
+  display: grid;
+  gap: 20px;
+  width:90vw;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  grid-template-areas:
+    'foto foto foto foto foto foto'
+    'experiencia estudios estudios estudios estudios idiomas';
+}
+
+@media (min-width: 400px) and (max-width: 990px){
+  .container{
+    grid-template-areas:
+    'foto foto foto foto foto foto'
+    'experiencia experiencia experiencia experiencia experiencia experiencia'
+    'estudios estudios estudios estudios estudios estudios'
+    'idiomas idiomas idiomas idiomas idiomas idiomas';
+    ;
+    padding-top: 43%;
+  }
+
+.yo_img{
+  width: 40% !important;
+}
+
+
+  .experiencia{
+    height: auto !important;
+  }
+
+  .estudios{
+    height: auto !important;
+  }
+
+  .idiomas{
+    height: auto !important;
+  }
+
+}
+
+@media screen and (max-width: 843px){
+ .footer{
+  flex-direction: column;
+ }
+
+ .contacto{
+  width: 100vw !important;
+  margin-bottom: 10px;
+ }
+
+ .redes{
+  width: 100vw !important;
+ }
+}
+
+.container h2 {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  text-align: center;
+}
+
+
+
+
+.foto {
+  grid-area: foto;
+  padding: 10px;
+}
+
+.foto h1 {
+  font-weight: 600;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.yo_img {
+  width: 20%;
+  border-radius: 20px;
+  transition: all 2s;
+}
+
+.yo_img:hover {
+  box-shadow: 0px 0px 50px #ffffff93;
+  transform: rotate(360deg);
+}
+
+
+
+
+.experiencia {
+  grid-area: experiencia;
+  text-align: start;
+  background-color: white;
+  border-radius: 10px;
+  height: 300px;
+  padding-top: 5px;
+}
+
+
+
+
+.estudios {
+  grid-area: estudios;
+  background-color: white;
+  border-radius: 10px;
+  height: 300px;
+}
+
+
+
+
+.idiomas {
+  grid-area: idiomas;
+  text-align: start;
+  background-color: white;
+  border-radius: 10px;
+  height: 300px;
+  padding-top: 5px;
+}
+
+
+
+
+
+.footer {
+  display: flex;
+  background-color: rgb(29, 29, 29);
+  width: 100vw;
+  height: 22vh;
+  margin-top: 20px;
+}
+
+.contacto{
+  display: flex;
+  width: 50%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.contacto > i{
+  font-size: 8.5vh;
+}
+
+.contacto ul{
+  list-style-type: none;
+  margin-top: 1.5%;
+}
+
+.redes{
+  display: flex;
+  width: 50%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes i {
+  font-size: 5vh;
+  margin: 0 20px;
+  color: rgba(255, 255, 255, 0.664);
+  transition: all 0.5s;
+}
+
+.redes i:hover{
+  color: rgb(255, 255, 255);
+  font-size: 5.5vh;
+}
+
+.footer .redes a {
+  text-decoration: none;
+}
+
+
+
+

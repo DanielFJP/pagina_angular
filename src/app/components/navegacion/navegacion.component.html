@@ -1,0 +1,101 @@
+
+<nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Pagina Angular</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav  mx-auto position-relative">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/inicio">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/tabla">Tabla</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/mediaqueries">Mediaqueries</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/transiciones">Transiciones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/hoja_de_vida">Hoja de Vida</a>
+        </li>
+      </ul>
+    </div>
+
+      <ul class="navbar-nav  dropdowns position-absolute">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown1" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="icono-p fi fi-br-comment-alt-dots"></i>
+            <i class="icono-n fi fi-sr-circle-3"></i>
+          </a>
+          <ul class="dropdown-menu mensajes" aria-labelledby="dropdown1">
+            <li class="dropdown-item mensajes-cont">
+              <span class="user"><i class="fi fi-sr-woman-head"></i></span>
+              <span class="nombre">Andrea</span>
+              <span class="msj">Holaa</span>
+              <span class="hora">.05:40</span>
+            </li>
+            <li class="dropdown-item mensajes-cont">
+              <span class="user"><i class="fi fi-sr-man-head"></i></span>
+              <span class="nombre">Carlos</span>
+              <span class="msj">¿Que mas?</span>
+              <span class="hora">.07:10</span>
+            </li>
+            <li class="dropdown-item mensajes-cont">
+              <span class="user"><i class="fi fi-ss-woman-head"></i></span>
+              <span class="nombre">Dayana</span>
+              <span class="msj">Como estas?</span>
+              <span class="hora">.Ayer</span>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown2" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="icono-p fi fi fi-bs-bell"></i>
+            <i class="icono-n fi fi-ss-circle-2"></i>
+          </a>
+          <ul class="dropdown-menu notificaciones" aria-labelledby="dropdown2">
+            <li class="dropdown-item np">
+              <span><i class="icono-np fi fi-sr-comment-alt-dots"></i></span>
+              <span>Tienes 3 mensajes sin responder</span>
+            </li>
+            <li class="dropdown-item np">
+              <span><i class="icono-np fi fi-sr-rotate-square"></i></span>
+              <span>Hay nuevas actualizaciones disponibles</span>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown3" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="icono-perfil fi fi-ss-circle-user"></i>
+          </a>
+          <ul class="dropdown-menu perfil" aria-labelledby="dropdown3">
+            <li class="dropdown-item np">
+              <span><i class="icono-np fi fi-sr-settings"></i></span>
+              <span>Configuración</span>
+            </li>
+            <li class="dropdown-item np">
+              <span><i class="icono-np fi fi-ss-interrogation"></i></span>
+              <span>Ayuda y soporte técnico</span>
+            </li>
+            <li class="dropdown-item np">
+              <span><i class="icono-np fi fi-br-exit"></i></span>
+              <span>Cerrar sesión</span>
+            </li>
+          </ul>
+        </li>
+
+      </ul>
+  </div>
+</nav>
+

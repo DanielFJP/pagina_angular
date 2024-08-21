@@ -1,0 +1,37 @@
+.gomita img {
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 15px 10px 50px #00000093;
+  transition: all 1s;
+}
+
+.gomita img:hover{
+  width: 85%;
+  box-shadow: 15px 10px 50px #ffffff93;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.row {
+  align-items: center;
+  height: 50vh;
+}
+
+.container h1 {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4vh;
+}
+
+.container p {
+  color: rgb(255, 255, 255);
+  font-size: 2vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
