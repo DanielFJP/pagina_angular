@@ -5,12 +5,24 @@ import { NavegacionComponent } from './components/navegacion/navegacion.componen
 import { MediaqueriesComponent } from './components/mediaqueries/mediaqueries.component';
 import { TransicionesComponent } from './components/transiciones/transiciones.component';
 import { HojaDeVidaComponent } from './components/hoja-de-vida/hoja-de-vida.component';
+import { FormsModule } from '@angular/forms';
+import { CalculadoraComponent } from './components/calculadora/calculadora.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [TablaComponent, NavegacionComponent, MediaqueriesComponent, TransicionesComponent, RouterOutlet, RouterLink, HojaDeVidaComponent],
+  imports: [
+    RouterOutlet,
+    RouterLink,
+    FormsModule,
+    TablaComponent,
+    NavegacionComponent,
+    MediaqueriesComponent,
+    TransicionesComponent,
+    HojaDeVidaComponent,
+    CalculadoraComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

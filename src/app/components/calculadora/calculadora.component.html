@@ -1,0 +1,16 @@
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-4">
+      <input type="number" class="form-control mb-3" [(ngModel)]="currentNumber"
+      (ngModelChange)="calculate()">
+      <div class="btn-group d-flex mb-3" role="group">
+        <button class="btn btn-secondary" (click)="setOperation('+')">+</button>
+        <button class="btn btn-secondary" (click)="setOperation('-')">-</button>
+        <button class="btn btn-secondary" (click)="setOperation('*')">*</button>
+        <button class="btn btn-secondary" (click)="setOperation('/')">/</button>
+      </div>
+      <h1 class="text-center">Resultado: {{ result }}</h1>
+    </div>
+  </div>
+</div>
